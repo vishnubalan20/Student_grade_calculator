@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grade Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Grade Calculator</h1>
+    <form id="grade-form">
+      <div class="subject">
+        <label for="subject1">Subject 1:</label>
+        <input type="number" class="subject-grade" id="subject1" placeholder="Enter mark" required>
+      </div>
+      <div class="subject">
+        <label for="subject2">Subject 2:</label>
+        <input type="number" class="subject-grade" id="subject2" placeholder="Enter mark" required>
+      </div>
+      <div class="subject">
+        <label for="subject3">Subject 3:</label>
+        <input type="number" class="subject-grade" id="subject3" placeholder="Enter mark" required>
+      </div>
+      <div class="subject">
+        <label for="subject4">Subject 4:</label>
+        <input type="number" class="subject-grade" id="subject4" placeholder="Enter mark" required>
+      </div>
+      <div class="subject">
+        <label for="subject5">Subject 5:</label>
+        <input type="number" class="subject-grade" id="subject5" placeholder="Enter mark" required>
+      </div>
+      <button type="button" onclick="calculateGrades()">Calculate Grades</button>
+    <div id="result" class="result"></div>
+    </form>
+  </div>
+  <script src="grade.js"></script>
+</body>
+</html>
